@@ -1,0 +1,398 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    font-family: Manrope;
+}
+
+.black {
+    width: 1440px;
+    padding-top: 32px;
+    height: 336px;
+    background-color: #000000;
+}
+
+.header {
+    width: 1109px;
+    height: 28px;
+    margin-left: 165px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.audiophile {
+    width: 143px;
+    height: 25px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 34px;
+    flex-direction: row;
+}
+
+a {
+    line-height: 20px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 13px;
+    font-family: Manrope;
+    text-decoration: none;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    padding: 2px 2px;
+}
+
+a:hover {
+
+    background-color: grey;
+    border-color: white;
+    transition: 0.4s ease-in;
+}
+
+nav {
+    width: 429px;
+    height: 25px;
+    margin-right: 130px !important;
+}
+
+.line1 {
+    width: 1110px;
+    height: 1px;
+    margin-top: 36px;
+    margin-left: 165px;
+    opacity: 20%;
+    color: white;
+    background-color: white;
+}
+
+.headphone {
+    width: 283px;
+    height: 44px;
+    margin-top: 98px;
+    margin-left: 579px;
+    color: white;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.43px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.basket {
+    width: 39.33px;
+    height: 35px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding-left: 4px;
+    padding-top: 2px;
+    padding-right: 6px;
+
+
+}
+
+.basket:hover {
+    background-color: grey;
+    border-color: white;
+    cursor: pointer;
+    transition: 0.4s ease-in;
+}
+
+.first-section {
+    width: 1110px;
+    height: 560px;
+    margin-top: 160px;
+    margin-left: 165px;
+    display: flex;
+    flex-direction: row;
+}
+
+.second-section {
+    width: 1110px;
+    height: 560px;
+    margin-top: 160px;
+    margin-left: 165px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.type1 {
+    width: 540px;
+    height: 560px;
+}
+
+.type-text {
+    width: 445px;
+    height: 343px;
+    margin-top: 109px;
+    margin-left: 125px;
+}
+
+.condition {
+    width: 199px;
+    height: 19px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.12px;
+    letter-spacing: 10px;
+    color: #D87D4A;
+    white-space: nowrap;
+}
+
+.name {
+    width: 445px;
+    height: 88px;
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.43px;
+}
+
+.description {
+    width: 445px;
+    height: 100px;
+    margin-top: 32px;
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+}
+
+.type1-button {
+    width: 160px;
+    height: 48px;
+    margin-top: 40px;
+    background-color: #D87D4A;
+    padding-top: 15px;
+    padding-left: 31.5px;
+    padding-bottom: 15px;
+    padding-right: 31.5px;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 17.76px;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.type1-button:hover {
+    background-color: #f7b891;
+    color: white;
+    transition: 0.6s;
+}
+
+.data {
+    width: 1110px;
+    height: 284px;
+    margin-top: 160px;
+    margin-left: 165px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sort-1 {
+    width: 350px;
+    height: 204px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #F1F1F1;
+}
+
+.for-2 {
+    margin-left: 30px;
+}
+
+.device-name {
+    width: 133px;
+    height: 25px;
+    margin-top: 36px;
+    margin-left: 108.5px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: 1.29px;
+    text-align: center;
+}
+
+.next-page {
+    width: 65px;
+    height: 24px;
+    margin-top: 15px;
+    margin-left: 146px;
+    padding-left: 4px;
+    padding-top: 2px;
+    opacity: 0.5;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17.76px;
+    letter-spacing: 1px;
+    text-align: center;
+    display: flex;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    flex-direction: row;
+}
+
+.see {
+    width: 5px;
+    height: 10px;
+    opacity: 1 !important;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 24px;
+    border-width: 2px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    color: #D87D4A;
+}
+
+.next-page:hover {
+    background-color: grey;
+    color: white;
+    transition: 0.6s;
+}
+
+.up1 {
+    margin-top: -75px;
+    margin-bottom: -10px;
+}
+
+.up2 {
+    margin-top: -75px;
+    margin-bottom: -50px;
+
+}
+
+.up3 {
+    margin-top: -65px;
+    margin-bottom: 10px;
+
+}
+
+.next {
+    width: 1110px;
+    height: 588px;
+    margin-top: 160px;
+    margin-left: 165px;
+    display: flex;
+    flex-direction: row;
+}
+
+.part-2 {
+    width: 445px;
+    height: 295px;
+    margin-top: 147px;
+    margin-right: 125px;
+
+
+}
+
+.just-name {
+    width: 445px;
+    height: 88px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.43px;
+    text-transform: uppercase;
+
+}
+
+.just-span {
+    width: 445px;
+    height: 88px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.43px;
+    color: #D87D4A !important;
+    text-transform: uppercase;
+}
+
+.just-text {
+    width: 445px;
+    height: 175px;
+    top: 120px;
+    opacity: 0.5;
+    margin-top: 32px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+}
+
+.photo {
+    width: 540px;
+    height: 588px;
+
+}
+
+.footer {
+    width: 1440px;
+    height: 365px;
+    background-color: #000000;
+    margin-bottom: 50px !important;
+    padding-top: 75px;
+}
+
+.clash {
+    width: 1110px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.read-text {
+    width: 540px;
+    height: 100px;
+    margin-top: 36px;
+    margin-left: 165px;
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    line-height: 25px;
+    letter-spacing: 0px;
+}
+
+.idea {
+    display: flex;
+    flex-direction: row;
+    margin-top: -5px;
+    margin-left: 1065px;
+
+}
+
+.final {
+    width: 540px;
+    height: 25px;
+    margin-top: 56px;
+    margin-left: 165px;
+    opacity: 0.5;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
